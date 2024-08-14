@@ -20,7 +20,7 @@ broj();
     if (broj===0 || broj===1){
         return 1;
     }else{
-        return broj * factorial(n-1);
+        return broj * factorial(broj-1);
     }
 
 
@@ -28,3 +28,16 @@ broj();
  }
  let rezultat=factorial(1);
  console.log(rezultat);
+ //Treci zadatak
+ function isPrime(broj1) {
+    if (broj1 <= 1) {
+      return false;
+    }
+    for (let i = 2; i < broj1; i++) {
+      if (broj1 % i === 0) {
+        return false;
+      }
+    }
+    return true;
+  }
+  console.log(isPrime(1));
