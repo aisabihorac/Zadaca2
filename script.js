@@ -14,3 +14,17 @@ function broj() {
 
 
 broj();
+
+//Drugi zadatak
+ function calculateFactorial(broj){
+    if (broj===0 || broj===1){
+        return 1;
+    }else{
+        return broj * factorial(n-1);
+    }
+
+
+
+ }
+ let rezultat=factorial(1);
+ console.log(rezultat);
