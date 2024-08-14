@@ -28,6 +28,9 @@ broj();
  }
  let rezultat=factorial(1);
  console.log(rezultat);
+
+
+
  //Treci zadatak
  function isPrime(broj1) {
     if (broj1 <= 1) {
@@ -41,3 +44,10 @@ broj();
     return true;
   }
   console.log(isPrime(1));
+  console.log(isPrime(8));
+
+  //Četvrti zadatak
+
+  let niz=[1,45,6,34,89];
+  let filterEvenNumbers=niz.filter(broj2 => broj2%2===0);
+  console.log(filterEvenNumbers);
